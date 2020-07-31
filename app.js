@@ -41,6 +41,6 @@ app.use((request, response) => {
   response.status(404).render("404");
 });
 
-createServer(app).listen(3000, () => {
+createServer(app).listen(process.env.PORT, () => {
   console.log("Guestbook app started on port 3000.");
 });
