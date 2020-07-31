@@ -1,6 +1,6 @@
 const express = require("express");
 const {createServer} = require("http");
-const {urlencoded} = require("body-parse");
+const {urlencoded} = require("body-parser");
 const logger = require("morgan");
 const {resolve} = require("path");
 
